@@ -10,9 +10,10 @@
 
 int _isalpha(char j)
 {
-	if (isalpha(j))
-	{
-	return (1);
-	}
-	return (0);
+if (isalpha(j))
+{
+return (1);
 }
+return (0);
+}
+
