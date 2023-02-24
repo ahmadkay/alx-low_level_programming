@@ -1,20 +1,26 @@
 #include "main.h"
+/* more headers goes there */
 
+/* betty style doc for function main goes there */
 /**
- * print_alphabet_x10 - Check description
- * Description : it prints the alphabets in lowercase ten times and then followed by a new line
- * Return : Nothing.
+ * print_alphabet_x10 -Entry point
+ *
+ * Return: Always 0 (Success)
  */
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
-	int a, j;
+	int n;
 
-	for (j = 0; j <= 9; j++)
+	for (n = 0; n < 10; n += 1)
 	{
-	for (a = 'a'; a <= 'z'; a++)
-	{
-	_putchar(a);
+		int i;
+
+		for (i = 'a'; i <= 'z'; i += 1)
+		{
+			_putchar(i);
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
+
 }
