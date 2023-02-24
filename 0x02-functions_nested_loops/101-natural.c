@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -18,3 +17,4 @@ number = number + i;
 }
 printf("%i\n", number);
 return (0);
+}
