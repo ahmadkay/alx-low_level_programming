@@ -1,18 +1,22 @@
 #include "main.h"
-#include <stdio.h>
+/* more headers goes there */
 
+/* betty style doc for function main goes there */
 /**
- * _islower - check Holberton
- * @j : an input character
- * Description : fuction uses _putchar function to print 
- * Return : 1 if j is lowercase and 0 if j is not lowercase
+ * _islower -Entry point
+ *
+ * @c: is the char to be checked for lowercase
+ *
+ * Return: 1 (Success) otherwise 0
  */
 
-int _islower(int c);
+int _islower(int c)
 {
-	if (islower(j))
+	if (c >= 'a' && c <= 'z')
 	{
-	return (1);
+		return (1);
 	}
-	return (0);
+	else
+		return (0);
+
 }
